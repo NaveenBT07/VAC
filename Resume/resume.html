@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen's Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <header>
+        <h1>Naveen B.T</h1>
+        <p>3rd Year Computer Science Student</p>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: naveen@100.com</p>
+        <p>Phone: 1234567890</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science in Computer Science</strong><br>
+        SA Engineering College, Expected Graduation: 2026</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <h3>Portfolio Website</h3>
+        <p>Developed a personal portfolio website using HTML and CSS to showcase various projects and skills.</p>
+        
+        <h3>Blog Template</h3>
+        <p>Created a responsive blog template.</p>
+        <button onclick="changeBackgroundColor()">Done</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Naveen</p>
+    </footer>
+
+    <script>
+        function changeBackgroundColor() {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        }
+    </script>
+</body>
+</html>
 
